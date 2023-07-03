@@ -62,7 +62,7 @@
 		B6F9C5B62A52F918003BAD20 /* RoundIconControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5622A52F918003BAD20 /* RoundIconControl.swift */; };
 		B6F9C5B72A52F918003BAD20 /* YouTubeInline.Control.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5632A52F918003BAD20 /* YouTubeInline.Control.swift */; };
 		B6F9C5B82A52F918003BAD20 /* ExercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5652A52F918003BAD20 /* ExercisesView.swift */; };
-		B6F9C5B92A52F918003BAD20 /* ALF.Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5672A52F918003BAD20 /* ALF.Navigation.swift */; };
+		B6F9C5B92A52F918003BAD20 /* ALF.NavigationHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5672A52F918003BAD20 /* ALF.NavigationHeader.swift */; };
 		B6F9C5BA2A52F918003BAD20 /* ALF.ContentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5682A52F918003BAD20 /* ALF.ContentPage.swift */; };
 		B6F9C5BB2A52F918003BAD20 /* ALF.KeepActive.Strength.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C56A2A52F918003BAD20 /* ALF.KeepActive.Strength.swift */; };
 		B6F9C5BC2A52F918003BAD20 /* ALF.KeepActive.Overview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C56B2A52F918003BAD20 /* ALF.KeepActive.Overview.swift */; };
@@ -90,6 +90,7 @@
 		B6F9C5D22A52F918003BAD20 /* NavigationManager.Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5862A52F918003BAD20 /* NavigationManager.Hash.swift */; };
 		B6F9C5D32A52F918003BAD20 /* NavigationManager.View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5872A52F918003BAD20 /* NavigationManager.View.swift */; };
 		B6F9C5D42A52F918003BAD20 /* NavigationManager.Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5882A52F918003BAD20 /* NavigationManager.Enum.swift */; };
+		B6F9C5D82A5311E1003BAD20 /* ALF.Navigation.Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5D72A5311E1003BAD20 /* ALF.Navigation.Footer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -168,7 +169,7 @@
 		B6F9C5622A52F918003BAD20 /* RoundIconControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundIconControl.swift; sourceTree = "<group>"; };
 		B6F9C5632A52F918003BAD20 /* YouTubeInline.Control.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouTubeInline.Control.swift; sourceTree = "<group>"; };
 		B6F9C5652A52F918003BAD20 /* ExercisesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesView.swift; sourceTree = "<group>"; };
-		B6F9C5672A52F918003BAD20 /* ALF.Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.Navigation.swift; sourceTree = "<group>"; };
+		B6F9C5672A52F918003BAD20 /* ALF.NavigationHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.NavigationHeader.swift; sourceTree = "<group>"; };
 		B6F9C5682A52F918003BAD20 /* ALF.ContentPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.ContentPage.swift; sourceTree = "<group>"; };
 		B6F9C56A2A52F918003BAD20 /* ALF.KeepActive.Strength.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.Strength.swift; sourceTree = "<group>"; };
 		B6F9C56B2A52F918003BAD20 /* ALF.KeepActive.Overview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.Overview.swift; sourceTree = "<group>"; };
@@ -197,6 +198,7 @@
 		B6F9C5872A52F918003BAD20 /* NavigationManager.View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationManager.View.swift; sourceTree = "<group>"; };
 		B6F9C5882A52F918003BAD20 /* NavigationManager.Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationManager.Enum.swift; sourceTree = "<group>"; };
 		B6F9C5D52A52F9C1003BAD20 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B6F9C5D72A5311E1003BAD20 /* ALF.Navigation.Footer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.Navigation.Footer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -441,7 +443,8 @@
 		B6F9C5662A52F918003BAD20 /* ALF */ = {
 			isa = PBXGroup;
 			children = (
-				B6F9C5672A52F918003BAD20 /* ALF.Navigation.swift */,
+				B6F9C5672A52F918003BAD20 /* ALF.NavigationHeader.swift */,
+				B6F9C5D72A5311E1003BAD20 /* ALF.Navigation.Footer.swift */,
 				B6F9C5682A52F918003BAD20 /* ALF.ContentPage.swift */,
 				B6F9C5692A52F918003BAD20 /* KeepActive */,
 			);
@@ -668,6 +671,7 @@
 				B6F9C58F2A52F918003BAD20 /* StaffMember.swift in Sources */,
 				B6F9C5D02A52F918003BAD20 /* Location.Map.VBuilder.swift in Sources */,
 				B6F9C5BF2A52F918003BAD20 /* ALF.KeepActive.Safety.swift in Sources */,
+				B6F9C5D82A5311E1003BAD20 /* ALF.Navigation.Footer.swift in Sources */,
 				B6F9C5D12A52F918003BAD20 /* NavigationRouter.swift in Sources */,
 				B6F9C5972A52F918003BAD20 /* Haptics.swift in Sources */,
 				B6F9C5A42A52F918003BAD20 /* ExerciseGroups.swift in Sources */,
@@ -712,7 +716,7 @@
 				B6F9C5B72A52F918003BAD20 /* YouTubeInline.Control.swift in Sources */,
 				B6F9C5A12A52F918003BAD20 /* Modifiers.swift in Sources */,
 				B6F9C5D22A52F918003BAD20 /* NavigationManager.Hash.swift in Sources */,
-				B6F9C5B92A52F918003BAD20 /* ALF.Navigation.swift in Sources */,
+				B6F9C5B92A52F918003BAD20 /* ALF.NavigationHeader.swift in Sources */,
 				B6F9C5CC2A52F918003BAD20 /* ErrorData.swift in Sources */,
 				B6F9C5C62A52F918003BAD20 /* ALF.KeepActive.CoolDown.swift in Sources */,
 				B6F9C5C22A52F918003BAD20 /* ALF.KeepActive.Aerobic.swift in Sources */,
@@ -900,7 +904,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -936,7 +940,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
