@@ -2,5 +2,9 @@ Rayne.Health
 
 Breathe Assistant
 
-Currently has ALF Keep Active Section as the Main View
+*version 1.0*
+ALF Keep Active Section as the Main View
+
+*version 1.1*
+Update Version Number to clear build errors
 
