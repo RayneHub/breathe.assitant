@@ -55,43 +55,61 @@ struct ALF_KAP_NextSteps: View {
                         ).foregroundColor(.black.opacity(0.7))
                             .padding(.bottom, 10)
                         
-                        Button("NavTest"){
+#if DEBUG
+                        Group{
                             
+                            Text ("Testing Danger Zone" ).font(.title).padding(.vertical ,10)
+                            Button("NavTest"){
+                                
+                                
+                                navigator.resetChapter()
+                            }.buttonStyle(.borderedProminent).tint(.orange)
                             
-                            navigator.resetChapter()
-                        }.buttonStyle(.borderedProminent).tint(.orange)
-                        
-                        Spacer()
-                        Button("NavTest"){
+                            Spacer()
+                            Button("NavTest"){
+                                
+                                
+                                navigator.resetChapter()
+                                navigator.goBack()
+                            }.buttonStyle(.borderedProminent).tint(.pink).padding(.bottom, 30)
                             
+                            ALF.PageNavigationLinkControl(
+                                title: "Keep active programme : ERR Test 1",
+                                about: "Return to this programmes main page",
+                                color:  .gray.opacity(0.2),
+                                navigatesTo: .ALFKeepActive(index: 99),
+                                hide:1
+                            )
+                            .foregroundColor(.black.opacity(0.7))
+                                .padding(.horizontal, 30)
+                                .padding(.bottom, 30)
                             
-                            navigator.resetChapter()
-                            navigator.goBack()
-                        }.buttonStyle(.borderedProminent).tint(.pink)
-                    
-                    
-                        ALF.PageNavigationLinkControl(
-                            title: "Keep active programme",
-                            about: "Return to this programmes main page",
-                            color:  .gray.opacity(0.2),
-                            navigatesTo: .ALFKeepActive(index: 99),
-                            hide:1
-                        )
-                        .foregroundColor(.black.opacity(0.7))
+                            ALF.PageNavigationLinkControl(
+                                title: "Home",
+                                about: "Return back to the rayne health : ERR Test 2",
+                                color: .yellow.opacity(0.8),
+                                navigatesTo: .ALFKeepActive(index: 99),
+                                hide:1
+                            )
+                            .foregroundColor(.black.opacity(0.7))
                             .padding(.horizontal, 30)
                             .padding(.bottom, 30)
+                        }
                         
-                        ALF.PageNavigationLinkControl(
-                            title: "Home",
-                            about: "Return back to the rayne health",
-                            color: .yellow.opacity(0.8),
-                            navigatesTo: .ALFKeepActive(index: 99),
-                            hide:1
-                        )
-                        .foregroundColor(.black.opacity(0.7))
-                        .padding(.horizontal, 30)
-                        .padding(.bottom, 30)
-                    }.background(.white)
+#else
+                       
+                        Button("*** RETURN TO ALF HOME ***"){
+                            navigator.resetChapter()
+                            navigator.goBack()
+                        }
+                        .frame(width:400)
+                        .buttonStyle(.borderedProminent).tint(.pink)
+                        .padding(.vertical, 20)
+                        
+#endif
+                     
+                    }
+                    .background(.white)
                 }
         )
     }
