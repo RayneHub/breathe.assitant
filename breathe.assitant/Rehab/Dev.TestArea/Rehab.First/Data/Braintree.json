@@ -1,0 +1,122 @@
+{
+    "venue":
+    {
+        "name":"Braintree Church",
+        "parking":"This venue has ample onsite parking for patients",
+        "refreshmentType":1,
+        "map":0,
+        "Postal Code":"CM776AD",
+        "sessions":
+        [
+            {
+                "day":2,
+                "start":"1400",
+                "finish":"1600"
+            },
+            {
+                "day":5,
+                "start":"1000",
+                "finish":"1200",
+            }
+        ]
+    },
+    
+    "groupLead":
+    {
+        "name":"Rachael",
+        "role": 2,
+        "image":"",
+        "text":[]
+    },
+    
+    "groupAssistant":
+    {
+        "name":"Kirsty",
+        "role": 16,
+        "image":"",
+        "text":[]
+    },
+    
+    "volunteers":
+    [
+        {
+            "name":"Jackie",
+            "role": 255,
+            "image":"",
+            "text":[]
+        },
+        {
+            "name":"Christopher Raven",
+            "role": 255,
+            "image":"",
+            "text":[]
+        }
+    ],
+    
+    "exercises" :
+    [
+        {
+            "name": "Walking",
+            "time": 4,
+            "guide":"A nice gentle walk building up to good pace.\n\nYou should aim to be 3 on the borg scale. \n\nYour heart rate should not exceed 120 bpm and your oxygen should not fall below 88 (Except for patients with pulmanory fibrosis)\n\nIf you have known heart problems then you must not stop at the end of this timer and should move slowly between excercises."
+        },
+        {
+            "name": "Wall Push Offs",
+            "time": 3,
+            "guide":"Advice"
+        },
+        {
+            "name": "Heel Raises",
+            "time": 3,
+            "guide":"Advice"
+        },
+        
+        {
+            "name": "Side Arm Raises",
+            "time": 3,
+            "guide":"Advice"
+        },
+        
+        {
+            "name": "Squats",
+            "time": 3,
+            "guide":"Advice"
+        },
+        {
+            "name": "Bicep Curls",
+            "time": 3,
+            "guide":"Advice"
+        },
+        {
+            "name": "Sit to Stand",
+            "time": 3,
+            "guide":"Advice"
+        },
+        {
+            "name": "Star Jacks",
+            "time": 3,
+            "guide":"Advice"
+        },
+        {
+            "name": "Upright Row",
+            "time": 3,
+            "guide":"Advice"
+        },
+        {
+            "name": "Ball Throw",
+            "time": 3,
+            "guide":"Advice"
+        },
+        {
+            "name": "Marching",
+            "time": 4,
+            "guide":"A nice brisk March.\n\nYou should aim to be 4 on the borg scale. \n\nYour heart rate should not exceed 120 bpm and your oxygen should not fall below 88 (Except for patients with pulmanory fibrosis)\n\nIf you have known heart problems then you must not stop at the end of this timer and should move slowly between excercises."
+        }
+        
+    ]
+}
+
+
+
+
+
