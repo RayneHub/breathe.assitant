@@ -14,7 +14,8 @@ struct BrathingView: View {
             VStack(spacing: 0)
             {
                 YoutubeInlineControl(videoID: "c4RljKVVLgg").frame(height: 200).cornerRadius(5)
-                Text("* running time: 8 mins and 07 seconds").font(.footnote).frame(maxWidth:.infinity, maxHeight: 40,  alignment: .trailing)
+                Text("* running time: 8 mins and 07 seconds")
+                    .font(.footnote).frame(maxWidth:.infinity, maxHeight: 40,  alignment: .trailing)
             }
             .padding(.horizontal,20)
             

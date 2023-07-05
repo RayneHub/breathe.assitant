@@ -30,7 +30,7 @@ extension ALF{
                 {
                     VStack(spacing: 0)
                     {
-                        ALF.PageNavigationLinkControl(
+                        ALF.NavigationControl(
                             title: title,
                             about: about,
                             color: bgColor,

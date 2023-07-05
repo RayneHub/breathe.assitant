@@ -55,7 +55,7 @@ struct ALF_KAP_Begin: View {
                         ).foregroundColor(.black.opacity(0.7))
                             .padding(.bottom, 10)
                         
-                        ALF.PageNavigationLinkControl(
+                        ALF.NavigationControl(
                             title: "Next: Exercise levels",
                             about: "Find out how to choose the right level to exercise and and why.",
                             color: .blue.opacity(0.9), //Color(hex: 0x808c9e),
@@ -75,12 +75,7 @@ struct ALF_KAP_Begin_Previews: PreviewProvider {
     static var previews: some View
     {
         ALF_KAP_Begin()
-            //.routerPreview(with: "Keep Active Programme", titleDisplayMode:.inline)
-            //.previewDisplayName("Begin")
-        
-       // ALF.Pages.KeepActive[0]
-        //    .background(ALF.Background)
-         //   .routerPreview(with: "Old", titleDisplayMode:.inline).previewDisplayName("Old")
+            .routerPreview(navigationTitle: "Keep Active Programme", previewName: "Keep Active Root", titleDisplayMode:.inline, navigationBarHidden: true)
     }
 }
 #endif

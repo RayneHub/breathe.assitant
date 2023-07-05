@@ -60,20 +60,16 @@ struct ALF_KAP_NextSteps: View {
                             
                             Text ("Testing Danger Zone" ).font(.title).padding(.vertical ,10)
                             Button("NavTest"){
-                                
-                                
                                 navigator.resetChapter()
                             }.buttonStyle(.borderedProminent).tint(.orange)
                             
                             Spacer()
                             Button("NavTest"){
-                                
-                                
                                 navigator.resetChapter()
                                 navigator.goBack()
                             }.buttonStyle(.borderedProminent).tint(.pink).padding(.bottom, 30)
                             
-                            ALF.PageNavigationLinkControl(
+                            ALF.NavigationControl(
                                 title: "Keep active programme : ERR Test 1",
                                 about: "Return to this programmes main page",
                                 color:  .gray.opacity(0.2),
@@ -84,7 +80,7 @@ struct ALF_KAP_NextSteps: View {
                                 .padding(.horizontal, 30)
                                 .padding(.bottom, 30)
                             
-                            ALF.PageNavigationLinkControl(
+                            ALF.NavigationControl(
                                 title: "Home",
                                 about: "Return back to the rayne health : ERR Test 2",
                                 color: .yellow.opacity(0.8),

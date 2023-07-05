@@ -49,7 +49,7 @@ struct ALF_KAP_Breathlesness: View {
                         
                    
                         
-                        ALF.PageNavigationLinkControl(
+                        ALF.NavigationControl(
                             title: "Next: Setting yourself goals",
                             about: "Find out how to set yourself exercise goals to help track your progress.",
                             color: .indigo.opacity(0.9), //Color(hex: 0x808c9e),

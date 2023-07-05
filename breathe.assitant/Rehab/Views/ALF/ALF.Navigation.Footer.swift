@@ -20,6 +20,7 @@ extension ALF {
             {
                 HStack(alignment: .top, spacing: 0)
                 {
+                   
                     //Image("aluk.logo").resizable().frame(width: 100, height: 100).opacity(0.2)
                     Spacer()
                     VStack{
@@ -27,18 +28,22 @@ extension ALF {
                         Text("Follow us").font(.system(size: 16).bold()).frame(maxWidth:.infinity, alignment: .trailing)
                         HStack(alignment: .top, spacing: 0)
                         {
+                            
+                            Button {
+                            } label:
+                            {
+                                Image("menu.icon").resizable().frame(width:36, height: 34)
+                            }
+                            .padding(.trailing,8)
+                            
+                            Spacer()
                             Button {
                             } label:
                             {
                                 Image("instagram.icon").resizable().frame(width:36, height: 34)
                             }.padding(.trailing,8)
                             
-                            Button {
-                            } label: {
-                                Image("youtube.icon").resizable().scaledToFit().frame(width:36, height: 34)
-                            }.padding(.trailing,8)
-                            
-                            
+
                             Button {
                             } label: {
                                 Image("facebook.icon").resizable().frame(width:36, height: 34)
@@ -48,6 +53,11 @@ extension ALF {
                                 
                             } label: {
                                 Image("twitter.icon").resizable().frame(width:36, height: 34)
+                            }.padding(.trailing,8)
+                            
+                            Button {
+                            } label: {
+                                Image("youtube.icon").resizable().scaledToFit().frame(width:36, height: 34)
                             }
                             
                         }.frame(maxWidth:.infinity,  alignment: .trailing)

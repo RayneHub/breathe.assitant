@@ -26,14 +26,9 @@ extension Location{
     @ViewBuilder private func pinBuilder() -> some View {
         
         ZStack{
-            TipStyleContol()
+            Group()
             {
-                Text(self.enumIdentifier.name + " : Pulminory Rehab")
-                    .font(.headline)
-                    .foregroundColor(.black.opacity(0.65))
-                Divider()
-                    .padding(.vertical,8)
-                
+
                 addressBuilder()
                 
                 Divider()
@@ -43,7 +38,8 @@ extension Location{
                     openInMaps(destinationName:enumIdentifier.name)
                 }
                 .foregroundColor(.accentColor)
-            }
+            }.tipView(header: self.enumIdentifier.name + " : Pulminory Rehab" , headerPadding: 30)
+            
             .padding(.top,270)
             RoundIconControl(fgColor: .blue, borderColor: .gray)
         }
@@ -83,14 +79,14 @@ struct LocationsMapTest: PreviewProvider
                     ForEach(venues.mapList, id: \.name)
                     {
                         item in
-                        NavigationLink(item.name, value: navigationManager.mapView(location: item))
+                        NavigationLink(item.name, value: navigationRoutes.mapView(location: item))
                     }
                 }
                 
                 Section
                 {
                     Text("Using ForEach(venues.allCases) would also show").foregroundColor(.accentColor)
-                    NavigationLink("Virtual", value: navigationManager.mapView(location: .Virtual))
+                    NavigationLink("Virtual", value: navigationRoutes.mapView(location: .Virtual))
                 }
                 
                 Section

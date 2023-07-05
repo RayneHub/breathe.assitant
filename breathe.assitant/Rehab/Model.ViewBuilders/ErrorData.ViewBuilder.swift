@@ -14,12 +14,12 @@ extension ErrorData {
             {
                 Spacer()
                 RoundIconControl(fgColor: .blue, borderColor: .gray)
-                TipStyleContol()
+                VStack()
                 {
                     Text(self.title).padding(.bottom, 8)
                     Divider().padding(.bottom, 12);
                     Text(self.message).padding(.bottom, 8);
-                }
+                }.tipView(header: "")
             }
             .padding(50)
             .background(.black)

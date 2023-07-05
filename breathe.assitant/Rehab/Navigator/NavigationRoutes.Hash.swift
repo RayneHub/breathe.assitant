@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-extension navigationManager: Hashable {
+extension navigationRoutes: Hashable {
     
     static var AlfProgammeUnlocked:Bool
     {
@@ -20,7 +20,7 @@ extension navigationManager: Hashable {
         hasher.combine(self.hashValue)
     }
     
-    static func == (lhs: navigationManager, rhs: navigationManager) -> Bool
+    static func == (lhs: navigationRoutes, rhs: navigationRoutes) -> Bool
     {
         switch (lhs, rhs) {
         case (.mapView, .mapView):

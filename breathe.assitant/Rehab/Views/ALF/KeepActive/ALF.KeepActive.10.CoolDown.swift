@@ -59,7 +59,7 @@ struct ALF_KAP_CoolDown: View {
                         
           
                  
-                        ALF.PageNavigationLinkControl(
+                        ALF.NavigationControl(
                             title: "Next: Next steps",
                             about: "Learn how to keep up your exercise routine.",
                             color: .yellow.opacity(0.7), 

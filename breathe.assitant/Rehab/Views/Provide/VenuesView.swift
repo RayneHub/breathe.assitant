@@ -19,8 +19,8 @@ struct VenuesView: View {
                 Section(item.name)
                 {
                     
-                    NavigationLink("Exercises", value: navigationManager.exercises(location: item))
-                    NavigationLink("Details", value: navigationManager.mapView(location: item))
+                    NavigationLink("Exercises", value: navigationRoutes.exercises(location: item))
+                    NavigationLink("Details", value: navigationRoutes.mapView(location: item))
                     Button("Set as Default"){}
                     Text("FacilitesView (Drinks/Parking etc)")
                 }
@@ -29,9 +29,9 @@ struct VenuesView: View {
             Section("Virtual Rehab")
             {
                 
-                NavigationLink("Exercises", value: navigationManager.mapView(location: .Virtual))
+                NavigationLink("Exercises", value: navigationRoutes.mapView(location: .Virtual))
                 //NavigationLink("Staff & volunteers", value: Route.mapView(location: item))
-                NavigationLink("Clinic Details", value: navigationManager.mapView(location: .Virtual))
+                NavigationLink("Clinic Details", value: navigationRoutes.mapView(location: .Virtual))
                 Button("Set as Default"){}
             }
         }

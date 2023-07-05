@@ -79,7 +79,7 @@ struct ALF_KAP_WarmUp: View {
                             .padding(.top, 10)
                         
 
-                        ALF.PageNavigationLinkControl(
+                        ALF.NavigationControl(
                             title: "Next: Strength exercises",
                             about: "Learn about some strengthening exercises that you can do at home.",
                             color: .black.opacity(0.7), //Color(hex: 0x808c9e),

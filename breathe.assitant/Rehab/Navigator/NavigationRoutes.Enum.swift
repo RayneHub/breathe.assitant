@@ -9,7 +9,7 @@ import SwiftUI
 
 import SwiftUI
 
-enum navigationManager
+enum navigationRoutes
 {
     case books
     //case locations(places: [Venue])

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B66023AE2A537CD400056CA4 /* Guide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66023AD2A537CD400056CA4 /* Guide.swift */; };
+		B669C39D2A55F124000FEB82 /* FirstAppearance.Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669C39C2A55F124000FEB82 /* FirstAppearance.Modifier.swift */; };
+		B669C39F2A56293A000FEB82 /* FirstRun.Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669C39E2A56293A000FEB82 /* FirstRun.Modifier.swift */; };
 		B6F9C4FF2A52F895003BAD20 /* breathe_assitantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C4FE2A52F895003BAD20 /* breathe_assitantApp.swift */; };
 		B6F9C5012A52F895003BAD20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5002A52F895003BAD20 /* ContentView.swift */; };
 		B6F9C5032A52F896003BAD20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6F9C5022A52F896003BAD20 /* Assets.xcassets */; };
@@ -64,18 +67,18 @@
 		B6F9C5B82A52F918003BAD20 /* ExercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5652A52F918003BAD20 /* ExercisesView.swift */; };
 		B6F9C5B92A52F918003BAD20 /* ALF.NavigationHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5672A52F918003BAD20 /* ALF.NavigationHeader.swift */; };
 		B6F9C5BA2A52F918003BAD20 /* ALF.ContentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5682A52F918003BAD20 /* ALF.ContentPage.swift */; };
-		B6F9C5BB2A52F918003BAD20 /* ALF.KeepActive.Strength.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C56A2A52F918003BAD20 /* ALF.KeepActive.Strength.swift */; };
-		B6F9C5BC2A52F918003BAD20 /* ALF.KeepActive.Overview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C56B2A52F918003BAD20 /* ALF.KeepActive.Overview.swift */; };
-		B6F9C5BD2A52F918003BAD20 /* ALF.KeepActive.NextSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C56C2A52F918003BAD20 /* ALF.KeepActive.NextSteps.swift */; };
-		B6F9C5BE2A52F918003BAD20 /* ALF.KeepActive.Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C56D2A52F918003BAD20 /* ALF.KeepActive.Root.swift */; };
-		B6F9C5BF2A52F918003BAD20 /* ALF.KeepActive.Safety.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C56E2A52F918003BAD20 /* ALF.KeepActive.Safety.swift */; };
-		B6F9C5C02A52F918003BAD20 /* ALF.KeepActive.Goals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C56F2A52F918003BAD20 /* ALF.KeepActive.Goals.swift */; };
-		B6F9C5C12A52F918003BAD20 /* ALF.KeepActive.Breathlesness.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5702A52F918003BAD20 /* ALF.KeepActive.Breathlesness.swift */; };
-		B6F9C5C22A52F918003BAD20 /* ALF.KeepActive.Aerobic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5712A52F918003BAD20 /* ALF.KeepActive.Aerobic.swift */; };
-		B6F9C5C32A52F918003BAD20 /* ALF.KeepActive.WarmUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5722A52F918003BAD20 /* ALF.KeepActive.WarmUp.swift */; };
-		B6F9C5C42A52F918003BAD20 /* ALF.KeepActive.Begin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5732A52F918003BAD20 /* ALF.KeepActive.Begin.swift */; };
-		B6F9C5C52A52F918003BAD20 /* ALF.KeepActive.Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5742A52F918003BAD20 /* ALF.KeepActive.Level.swift */; };
-		B6F9C5C62A52F918003BAD20 /* ALF.KeepActive.CoolDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5752A52F918003BAD20 /* ALF.KeepActive.CoolDown.swift */; };
+		B6F9C5BB2A52F918003BAD20 /* ALF.KeepActive.08.Strength.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C56A2A52F918003BAD20 /* ALF.KeepActive.08.Strength.swift */; };
+		B6F9C5BC2A52F918003BAD20 /* ALF.KeepActive.03.Overview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C56B2A52F918003BAD20 /* ALF.KeepActive.03.Overview.swift */; };
+		B6F9C5BD2A52F918003BAD20 /* ALF.KeepActive11.NextSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C56C2A52F918003BAD20 /* ALF.KeepActive11.NextSteps.swift */; };
+		B6F9C5BE2A52F918003BAD20 /* ALF.KeepActive.0.Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C56D2A52F918003BAD20 /* ALF.KeepActive.0.Root.swift */; };
+		B6F9C5BF2A52F918003BAD20 /* ALF.KeepActive.04.Safety.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C56E2A52F918003BAD20 /* ALF.KeepActive.04.Safety.swift */; };
+		B6F9C5C02A52F918003BAD20 /* ALF.KeepActive.06.Goals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C56F2A52F918003BAD20 /* ALF.KeepActive.06.Goals.swift */; };
+		B6F9C5C12A52F918003BAD20 /* ALF.KeepActive.05.Breathlesness.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5702A52F918003BAD20 /* ALF.KeepActive.05.Breathlesness.swift */; };
+		B6F9C5C22A52F918003BAD20 /* ALF.KeepActive.09.Aerobic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5712A52F918003BAD20 /* ALF.KeepActive.09.Aerobic.swift */; };
+		B6F9C5C32A52F918003BAD20 /* ALF.KeepActive.07.WarmUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5722A52F918003BAD20 /* ALF.KeepActive.07.WarmUp.swift */; };
+		B6F9C5C42A52F918003BAD20 /* ALF.KeepActive.01.Begin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5732A52F918003BAD20 /* ALF.KeepActive.01.Begin.swift */; };
+		B6F9C5C52A52F918003BAD20 /* ALF.KeepActive.02.Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5742A52F918003BAD20 /* ALF.KeepActive.02.Level.swift */; };
+		B6F9C5C62A52F918003BAD20 /* ALF.KeepActive.10.CoolDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5752A52F918003BAD20 /* ALF.KeepActive.10.CoolDown.swift */; };
 		B6F9C5C72A52F918003BAD20 /* VenuesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5772A52F918003BAD20 /* VenuesView.swift */; };
 		B6F9C5C82A52F918003BAD20 /* ALF.PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5792A52F918003BAD20 /* ALF.PageData.swift */; };
 		B6F9C5C92A52F918003BAD20 /* Addresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C57A2A52F918003BAD20 /* Addresses.swift */; };
@@ -87,10 +90,12 @@
 		B6F9C5CF2A52F918003BAD20 /* ErrorData.ViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5822A52F918003BAD20 /* ErrorData.ViewBuilder.swift */; };
 		B6F9C5D02A52F918003BAD20 /* Location.Map.VBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5832A52F918003BAD20 /* Location.Map.VBuilder.swift */; };
 		B6F9C5D12A52F918003BAD20 /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5852A52F918003BAD20 /* NavigationRouter.swift */; };
-		B6F9C5D22A52F918003BAD20 /* NavigationManager.Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5862A52F918003BAD20 /* NavigationManager.Hash.swift */; };
-		B6F9C5D32A52F918003BAD20 /* NavigationManager.View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5872A52F918003BAD20 /* NavigationManager.View.swift */; };
-		B6F9C5D42A52F918003BAD20 /* NavigationManager.Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5882A52F918003BAD20 /* NavigationManager.Enum.swift */; };
+		B6F9C5D22A52F918003BAD20 /* NavigationRoutes.Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5862A52F918003BAD20 /* NavigationRoutes.Hash.swift */; };
+		B6F9C5D32A52F918003BAD20 /* NavigationRoutes.View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5872A52F918003BAD20 /* NavigationRoutes.View.swift */; };
+		B6F9C5D42A52F918003BAD20 /* NavigationRoutes.Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5882A52F918003BAD20 /* NavigationRoutes.Enum.swift */; };
 		B6F9C5D82A5311E1003BAD20 /* ALF.Navigation.Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5D72A5311E1003BAD20 /* ALF.Navigation.Footer.swift */; };
+		B6F9C5DA2A534F51003BAD20 /* ContentTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5D92A534F51003BAD20 /* ContentTesting.swift */; };
+		B6F9C5DF2A5358D4003BAD20 /* ALF.NavigationControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9C5DE2A5358D4003BAD20 /* ALF.NavigationControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +116,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B66023AD2A537CD400056CA4 /* Guide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guide.swift; sourceTree = "<group>"; };
+		B669C39C2A55F124000FEB82 /* FirstAppearance.Modifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstAppearance.Modifier.swift; sourceTree = "<group>"; };
+		B669C39E2A56293A000FEB82 /* FirstRun.Modifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstRun.Modifier.swift; sourceTree = "<group>"; };
 		B6F9C4FB2A52F895003BAD20 /* breathe.assitant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breathe.assitant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6F9C4FE2A52F895003BAD20 /* breathe_assitantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breathe_assitantApp.swift; sourceTree = "<group>"; };
 		B6F9C5002A52F895003BAD20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -171,18 +179,18 @@
 		B6F9C5652A52F918003BAD20 /* ExercisesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesView.swift; sourceTree = "<group>"; };
 		B6F9C5672A52F918003BAD20 /* ALF.NavigationHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.NavigationHeader.swift; sourceTree = "<group>"; };
 		B6F9C5682A52F918003BAD20 /* ALF.ContentPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.ContentPage.swift; sourceTree = "<group>"; };
-		B6F9C56A2A52F918003BAD20 /* ALF.KeepActive.Strength.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.Strength.swift; sourceTree = "<group>"; };
-		B6F9C56B2A52F918003BAD20 /* ALF.KeepActive.Overview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.Overview.swift; sourceTree = "<group>"; };
-		B6F9C56C2A52F918003BAD20 /* ALF.KeepActive.NextSteps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.NextSteps.swift; sourceTree = "<group>"; };
-		B6F9C56D2A52F918003BAD20 /* ALF.KeepActive.Root.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.Root.swift; sourceTree = "<group>"; };
-		B6F9C56E2A52F918003BAD20 /* ALF.KeepActive.Safety.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.Safety.swift; sourceTree = "<group>"; };
-		B6F9C56F2A52F918003BAD20 /* ALF.KeepActive.Goals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.Goals.swift; sourceTree = "<group>"; };
-		B6F9C5702A52F918003BAD20 /* ALF.KeepActive.Breathlesness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.Breathlesness.swift; sourceTree = "<group>"; };
-		B6F9C5712A52F918003BAD20 /* ALF.KeepActive.Aerobic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.Aerobic.swift; sourceTree = "<group>"; };
-		B6F9C5722A52F918003BAD20 /* ALF.KeepActive.WarmUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.WarmUp.swift; sourceTree = "<group>"; };
-		B6F9C5732A52F918003BAD20 /* ALF.KeepActive.Begin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.Begin.swift; sourceTree = "<group>"; };
-		B6F9C5742A52F918003BAD20 /* ALF.KeepActive.Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.Level.swift; sourceTree = "<group>"; };
-		B6F9C5752A52F918003BAD20 /* ALF.KeepActive.CoolDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.CoolDown.swift; sourceTree = "<group>"; };
+		B6F9C56A2A52F918003BAD20 /* ALF.KeepActive.08.Strength.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.08.Strength.swift; sourceTree = "<group>"; };
+		B6F9C56B2A52F918003BAD20 /* ALF.KeepActive.03.Overview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.03.Overview.swift; sourceTree = "<group>"; };
+		B6F9C56C2A52F918003BAD20 /* ALF.KeepActive11.NextSteps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive11.NextSteps.swift; sourceTree = "<group>"; };
+		B6F9C56D2A52F918003BAD20 /* ALF.KeepActive.0.Root.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.0.Root.swift; sourceTree = "<group>"; };
+		B6F9C56E2A52F918003BAD20 /* ALF.KeepActive.04.Safety.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.04.Safety.swift; sourceTree = "<group>"; };
+		B6F9C56F2A52F918003BAD20 /* ALF.KeepActive.06.Goals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.06.Goals.swift; sourceTree = "<group>"; };
+		B6F9C5702A52F918003BAD20 /* ALF.KeepActive.05.Breathlesness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.05.Breathlesness.swift; sourceTree = "<group>"; };
+		B6F9C5712A52F918003BAD20 /* ALF.KeepActive.09.Aerobic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.09.Aerobic.swift; sourceTree = "<group>"; };
+		B6F9C5722A52F918003BAD20 /* ALF.KeepActive.07.WarmUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.07.WarmUp.swift; sourceTree = "<group>"; };
+		B6F9C5732A52F918003BAD20 /* ALF.KeepActive.01.Begin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.01.Begin.swift; sourceTree = "<group>"; };
+		B6F9C5742A52F918003BAD20 /* ALF.KeepActive.02.Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.02.Level.swift; sourceTree = "<group>"; };
+		B6F9C5752A52F918003BAD20 /* ALF.KeepActive.10.CoolDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.KeepActive.10.CoolDown.swift; sourceTree = "<group>"; };
 		B6F9C5772A52F918003BAD20 /* VenuesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuesView.swift; sourceTree = "<group>"; };
 		B6F9C5792A52F918003BAD20 /* ALF.PageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.PageData.swift; sourceTree = "<group>"; };
 		B6F9C57A2A52F918003BAD20 /* Addresses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Addresses.swift; sourceTree = "<group>"; };
@@ -194,11 +202,13 @@
 		B6F9C5822A52F918003BAD20 /* ErrorData.ViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorData.ViewBuilder.swift; sourceTree = "<group>"; };
 		B6F9C5832A52F918003BAD20 /* Location.Map.VBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.Map.VBuilder.swift; sourceTree = "<group>"; };
 		B6F9C5852A52F918003BAD20 /* NavigationRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
-		B6F9C5862A52F918003BAD20 /* NavigationManager.Hash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationManager.Hash.swift; sourceTree = "<group>"; };
-		B6F9C5872A52F918003BAD20 /* NavigationManager.View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationManager.View.swift; sourceTree = "<group>"; };
-		B6F9C5882A52F918003BAD20 /* NavigationManager.Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationManager.Enum.swift; sourceTree = "<group>"; };
+		B6F9C5862A52F918003BAD20 /* NavigationRoutes.Hash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationRoutes.Hash.swift; sourceTree = "<group>"; };
+		B6F9C5872A52F918003BAD20 /* NavigationRoutes.View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationRoutes.View.swift; sourceTree = "<group>"; };
+		B6F9C5882A52F918003BAD20 /* NavigationRoutes.Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationRoutes.Enum.swift; sourceTree = "<group>"; };
 		B6F9C5D52A52F9C1003BAD20 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B6F9C5D72A5311E1003BAD20 /* ALF.Navigation.Footer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.Navigation.Footer.swift; sourceTree = "<group>"; };
+		B6F9C5D92A534F51003BAD20 /* ContentTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTesting.swift; sourceTree = "<group>"; };
+		B6F9C5DE2A5358D4003BAD20 /* ALF.NavigationControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALF.NavigationControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -416,6 +426,7 @@
 				B6F9C5642A52F918003BAD20 /* Exercise */,
 				B6F9C5662A52F918003BAD20 /* ALF */,
 				B6F9C5762A52F918003BAD20 /* Provide */,
+				B66023AD2A537CD400056CA4 /* Guide.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -423,9 +434,9 @@
 		B6F9C55E2A52F918003BAD20 /* Control.Views */ = {
 			isa = PBXGroup;
 			children = (
+				B6F9C5DD2A5358A2003BAD20 /* ALF */,
 				B6F9C55F2A52F918003BAD20 /* TipStyle.Control.swift */,
 				B6F9C5602A52F918003BAD20 /* PagerControl.swift */,
-				B6F9C5612A52F918003BAD20 /* ALF.Controls.swift */,
 				B6F9C5622A52F918003BAD20 /* RoundIconControl.swift */,
 				B6F9C5632A52F918003BAD20 /* YouTubeInline.Control.swift */,
 			);
@@ -454,18 +465,18 @@
 		B6F9C5692A52F918003BAD20 /* KeepActive */ = {
 			isa = PBXGroup;
 			children = (
-				B6F9C56A2A52F918003BAD20 /* ALF.KeepActive.Strength.swift */,
-				B6F9C56B2A52F918003BAD20 /* ALF.KeepActive.Overview.swift */,
-				B6F9C56C2A52F918003BAD20 /* ALF.KeepActive.NextSteps.swift */,
-				B6F9C56D2A52F918003BAD20 /* ALF.KeepActive.Root.swift */,
-				B6F9C56E2A52F918003BAD20 /* ALF.KeepActive.Safety.swift */,
-				B6F9C56F2A52F918003BAD20 /* ALF.KeepActive.Goals.swift */,
-				B6F9C5702A52F918003BAD20 /* ALF.KeepActive.Breathlesness.swift */,
-				B6F9C5712A52F918003BAD20 /* ALF.KeepActive.Aerobic.swift */,
-				B6F9C5722A52F918003BAD20 /* ALF.KeepActive.WarmUp.swift */,
-				B6F9C5732A52F918003BAD20 /* ALF.KeepActive.Begin.swift */,
-				B6F9C5742A52F918003BAD20 /* ALF.KeepActive.Level.swift */,
-				B6F9C5752A52F918003BAD20 /* ALF.KeepActive.CoolDown.swift */,
+				B6F9C56D2A52F918003BAD20 /* ALF.KeepActive.0.Root.swift */,
+				B6F9C5732A52F918003BAD20 /* ALF.KeepActive.01.Begin.swift */,
+				B6F9C5742A52F918003BAD20 /* ALF.KeepActive.02.Level.swift */,
+				B6F9C56B2A52F918003BAD20 /* ALF.KeepActive.03.Overview.swift */,
+				B6F9C56E2A52F918003BAD20 /* ALF.KeepActive.04.Safety.swift */,
+				B6F9C5702A52F918003BAD20 /* ALF.KeepActive.05.Breathlesness.swift */,
+				B6F9C56F2A52F918003BAD20 /* ALF.KeepActive.06.Goals.swift */,
+				B6F9C5722A52F918003BAD20 /* ALF.KeepActive.07.WarmUp.swift */,
+				B6F9C56A2A52F918003BAD20 /* ALF.KeepActive.08.Strength.swift */,
+				B6F9C5712A52F918003BAD20 /* ALF.KeepActive.09.Aerobic.swift */,
+				B6F9C5752A52F918003BAD20 /* ALF.KeepActive.10.CoolDown.swift */,
+				B6F9C56C2A52F918003BAD20 /* ALF.KeepActive11.NextSteps.swift */,
 			);
 			path = KeepActive;
 			sourceTree = "<group>";
@@ -495,6 +506,8 @@
 			children = (
 				B6F9C57F2A52F918003BAD20 /* UINavigationController.Style.swift */,
 				B6F9C5802A52F918003BAD20 /* Navigation.Modifiers.swift */,
+				B669C39C2A55F124000FEB82 /* FirstAppearance.Modifier.swift */,
+				B669C39E2A56293A000FEB82 /* FirstRun.Modifier.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -512,9 +525,9 @@
 			isa = PBXGroup;
 			children = (
 				B6F9C5852A52F918003BAD20 /* NavigationRouter.swift */,
-				B6F9C5862A52F918003BAD20 /* NavigationManager.Hash.swift */,
-				B6F9C5872A52F918003BAD20 /* NavigationManager.View.swift */,
-				B6F9C5882A52F918003BAD20 /* NavigationManager.Enum.swift */,
+				B6F9C5862A52F918003BAD20 /* NavigationRoutes.Hash.swift */,
+				B6F9C5872A52F918003BAD20 /* NavigationRoutes.View.swift */,
+				B6F9C5882A52F918003BAD20 /* NavigationRoutes.Enum.swift */,
 			);
 			path = Navigator;
 			sourceTree = "<group>";
@@ -524,8 +537,18 @@
 			children = (
 				B6F9C4FE2A52F895003BAD20 /* breathe_assitantApp.swift */,
 				B6F9C5002A52F895003BAD20 /* ContentView.swift */,
+				B6F9C5D92A534F51003BAD20 /* ContentTesting.swift */,
 			);
 			path = Root;
+			sourceTree = "<group>";
+		};
+		B6F9C5DD2A5358A2003BAD20 /* ALF */ = {
+			isa = PBXGroup;
+			children = (
+				B6F9C5612A52F918003BAD20 /* ALF.Controls.swift */,
+				B6F9C5DE2A5358D4003BAD20 /* ALF.NavigationControl.swift */,
+			);
+			path = ALF;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -665,25 +688,26 @@
 			files = (
 				B6F9C58E2A52F918003BAD20 /* ALF.Models.swift in Sources */,
 				B6F9C5AE2A52F918003BAD20 /* SectionView_R.swift in Sources */,
-				B6F9C5BE2A52F918003BAD20 /* ALF.KeepActive.Root.swift in Sources */,
+				B6F9C5BE2A52F918003BAD20 /* ALF.KeepActive.0.Root.swift in Sources */,
 				B6F9C59E2A52F918003BAD20 /* NavigationController.swift in Sources */,
 				B6F9C5A22A52F918003BAD20 /* Rayne.Countdown.swift in Sources */,
 				B6F9C58F2A52F918003BAD20 /* StaffMember.swift in Sources */,
 				B6F9C5D02A52F918003BAD20 /* Location.Map.VBuilder.swift in Sources */,
-				B6F9C5BF2A52F918003BAD20 /* ALF.KeepActive.Safety.swift in Sources */,
+				B6F9C5BF2A52F918003BAD20 /* ALF.KeepActive.04.Safety.swift in Sources */,
 				B6F9C5D82A5311E1003BAD20 /* ALF.Navigation.Footer.swift in Sources */,
 				B6F9C5D12A52F918003BAD20 /* NavigationRouter.swift in Sources */,
 				B6F9C5972A52F918003BAD20 /* Haptics.swift in Sources */,
 				B6F9C5A42A52F918003BAD20 /* ExerciseGroups.swift in Sources */,
+				B6F9C5DF2A5358D4003BAD20 /* ALF.NavigationControl.swift in Sources */,
 				B6F9C5C82A52F918003BAD20 /* ALF.PageData.swift in Sources */,
 				B6F9C5CD2A52F918003BAD20 /* UINavigationController.Style.swift in Sources */,
 				B6F9C5A02A52F918003BAD20 /* Rayne.Json.swift in Sources */,
-				B6F9C5C42A52F918003BAD20 /* ALF.KeepActive.Begin.swift in Sources */,
+				B6F9C5C42A52F918003BAD20 /* ALF.KeepActive.01.Begin.swift in Sources */,
 				B6F9C59A2A52F918003BAD20 /* NavigationBar.Sub.swift in Sources */,
 				B6F9C58C2A52F918003BAD20 /* Staff.swift in Sources */,
 				B6F9C5B52A52F918003BAD20 /* ALF.Controls.swift in Sources */,
 				B6F9C5B62A52F918003BAD20 /* RoundIconControl.swift in Sources */,
-				B6F9C5C02A52F918003BAD20 /* ALF.KeepActive.Goals.swift in Sources */,
+				B6F9C5C02A52F918003BAD20 /* ALF.KeepActive.06.Goals.swift in Sources */,
 				B6F9C5B42A52F918003BAD20 /* PagerControl.swift in Sources */,
 				B6F9C58A2A52F918003BAD20 /* Session.swift in Sources */,
 				B6F9C5932A52F918003BAD20 /* TestView_R.swift in Sources */,
@@ -695,43 +719,47 @@
 				B6F9C5992A52F918003BAD20 /* Group.swift in Sources */,
 				B6F9C5AF2A52F918003BAD20 /* BookView_R.swift in Sources */,
 				B6F9C5922A52F918003BAD20 /* VideTest.Breating.swift in Sources */,
-				B6F9C5C32A52F918003BAD20 /* ALF.KeepActive.WarmUp.swift in Sources */,
+				B6F9C5DA2A534F51003BAD20 /* ContentTesting.swift in Sources */,
+				B6F9C5C32A52F918003BAD20 /* ALF.KeepActive.07.WarmUp.swift in Sources */,
 				B6F9C5CB2A52F918003BAD20 /* Venues.swift in Sources */,
-				B6F9C5BD2A52F918003BAD20 /* ALF.KeepActive.NextSteps.swift in Sources */,
-				B6F9C5BC2A52F918003BAD20 /* ALF.KeepActive.Overview.swift in Sources */,
-				B6F9C5D32A52F918003BAD20 /* NavigationManager.View.swift in Sources */,
+				B6F9C5BD2A52F918003BAD20 /* ALF.KeepActive11.NextSteps.swift in Sources */,
+				B6F9C5BC2A52F918003BAD20 /* ALF.KeepActive.03.Overview.swift in Sources */,
+				B669C39F2A56293A000FEB82 /* FirstRun.Modifier.swift in Sources */,
+				B6F9C5D32A52F918003BAD20 /* NavigationRoutes.View.swift in Sources */,
 				B6F9C5982A52F918003BAD20 /* Home_R.swift in Sources */,
 				B6F9C5C92A52F918003BAD20 /* Addresses.swift in Sources */,
 				B6F9C5AC2A52F918003BAD20 /* VenuesView_R.swift in Sources */,
 				B6F9C5CA2A52F918003BAD20 /* RehabExercises.swift in Sources */,
-				B6F9C5C12A52F918003BAD20 /* ALF.KeepActive.Breathlesness.swift in Sources */,
+				B6F9C5C12A52F918003BAD20 /* ALF.KeepActive.05.Breathlesness.swift in Sources */,
 				B6F9C5AA2A52F918003BAD20 /* TimerView_R.swift in Sources */,
 				B6F9C59B2A52F918003BAD20 /* Navigation.Bottom.swift in Sources */,
 				B6F9C58D2A52F918003BAD20 /* Sessions.swift in Sources */,
 				B6F9C5012A52F895003BAD20 /* ContentView.swift in Sources */,
 				B6F9C5952A52F918003BAD20 /* LogoView_R.swift in Sources */,
 				B6F9C5AD2A52F918003BAD20 /* VenueView_R.swift in Sources */,
-				B6F9C5C52A52F918003BAD20 /* ALF.KeepActive.Level.swift in Sources */,
+				B6F9C5C52A52F918003BAD20 /* ALF.KeepActive.02.Level.swift in Sources */,
 				B6F9C5C72A52F918003BAD20 /* VenuesView.swift in Sources */,
 				B6F9C5B72A52F918003BAD20 /* YouTubeInline.Control.swift in Sources */,
 				B6F9C5A12A52F918003BAD20 /* Modifiers.swift in Sources */,
-				B6F9C5D22A52F918003BAD20 /* NavigationManager.Hash.swift in Sources */,
+				B6F9C5D22A52F918003BAD20 /* NavigationRoutes.Hash.swift in Sources */,
 				B6F9C5B92A52F918003BAD20 /* ALF.NavigationHeader.swift in Sources */,
 				B6F9C5CC2A52F918003BAD20 /* ErrorData.swift in Sources */,
-				B6F9C5C62A52F918003BAD20 /* ALF.KeepActive.CoolDown.swift in Sources */,
-				B6F9C5C22A52F918003BAD20 /* ALF.KeepActive.Aerobic.swift in Sources */,
+				B6F9C5C62A52F918003BAD20 /* ALF.KeepActive.10.CoolDown.swift in Sources */,
+				B6F9C5C22A52F918003BAD20 /* ALF.KeepActive.09.Aerobic.swift in Sources */,
 				B6F9C59C2A52F918003BAD20 /* NavigationBar.Top.swift in Sources */,
 				B6F9C5CE2A52F918003BAD20 /* Navigation.Modifiers.swift in Sources */,
 				B6F9C59F2A52F918003BAD20 /* ColourScheme.swift in Sources */,
+				B669C39D2A55F124000FEB82 /* FirstAppearance.Modifier.swift in Sources */,
 				B6F9C5942A52F918003BAD20 /* RayneHealth.InterfaceTest.swift in Sources */,
 				B6F9C5962A52F918003BAD20 /* NavigationView.swift in Sources */,
 				B6F9C5B12A52F918003BAD20 /* NavigationLink_R.swift in Sources */,
-				B6F9C5BB2A52F918003BAD20 /* ALF.KeepActive.Strength.swift in Sources */,
+				B6F9C5BB2A52F918003BAD20 /* ALF.KeepActive.08.Strength.swift in Sources */,
 				B6F9C5892A52F918003BAD20 /* Location.swift in Sources */,
+				B66023AE2A537CD400056CA4 /* Guide.swift in Sources */,
 				B6F9C4FF2A52F895003BAD20 /* breathe_assitantApp.swift in Sources */,
 				B6F9C59D2A52F918003BAD20 /* TabBarView.swift in Sources */,
 				B6F9C5902A52F918003BAD20 /* ContentViewOld.swift in Sources */,
-				B6F9C5D42A52F918003BAD20 /* NavigationManager.Enum.swift in Sources */,
+				B6F9C5D42A52F918003BAD20 /* NavigationRoutes.Enum.swift in Sources */,
 				B6F9C58B2A52F918003BAD20 /* Address.swift in Sources */,
 				B6F9C5A32A52F918003BAD20 /* User_R.swift in Sources */,
 				B6F9C5B22A52F918003BAD20 /* Provide.UI.Old.swift in Sources */,

@@ -74,7 +74,7 @@ struct ALF_KAP_Aerobic: View {
                         //title:"Cool down and stretching",
                         //about:"After any form of exercise, you should complete a cool down. Cool down exercises and stretches help you recover after exercise.",
                         
-                        ALF.PageNavigationLinkControl(
+                        ALF.NavigationControl(
                             title: "Next: Cool down and stretching",
                             about: "Learn about some cool down exercises and stretches that you can do at home.",
                             color: .blue.opacity(0.9),

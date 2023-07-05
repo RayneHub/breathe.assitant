@@ -50,7 +50,7 @@ struct ALF_KAP_Overview: View {
                         .padding(.bottom, 20)
                            
                         
-                        ALF.PageNavigationLinkControl(
+                        ALF.NavigationControl(
                             title: "Next: Exercising safely",
                             about: "Find out how to exercise safely whilst taking part in this programme",
                             color: .green.opacity(0.15),

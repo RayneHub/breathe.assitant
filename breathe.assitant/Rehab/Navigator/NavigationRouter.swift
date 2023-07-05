@@ -11,7 +11,7 @@ final class NavigationRouter: ObservableObject {
     
     // MARK: Navigation Path Array with Chapter Manager
     
-    @Published var navigationPath = [navigationManager](){
+    @Published var navigationPath = [navigationRoutes](){
         willSet(updatedArray)
         {
             let lastIndex = updatedArray.count > 0 ? updatedArray.count - 1 : 0
@@ -33,7 +33,7 @@ final class NavigationRouter: ObservableObject {
     
     // MARK: Chapter Markers
     
-    private var chapterMarkers:[Int] = [0]
+    private var chapterMarkers:[Int] = []
     
     private var lastChapterIndex:Int {
         guard let chapterMarker = chapterMarkers.last else {
@@ -49,7 +49,7 @@ final class NavigationRouter: ObservableObject {
         push(to: .ALFKeepActive(index: idx))
     }
     
-    func push(to view: navigationManager)
+    func push(to view: navigationRoutes)
     {
         navigationPath.append(view)
     }
@@ -69,17 +69,20 @@ final class NavigationRouter: ObservableObject {
     
     func reset()
     {
+        chapterMarkers.removeAll()
         navigationPath.removeAll()
     }
     
     func resetChapter()
     {
-        if let chapterRoot = chapterMarkers.last
-        {
-            let lastIndex = navigationPath.count - 1
-            let qty = lastIndex - chapterRoot
-            navigationPath.removeLast(qty)
+        guard let chapterRoot = chapterMarkers.last else {
+            return
         }
+        
+        let lastIndex = navigationPath.count - 1
+        let qty = lastIndex - chapterRoot
+        navigationPath.removeLast(qty)
+        
     }
     
     func setStop(for stop:Int){

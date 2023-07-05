@@ -6,14 +6,20 @@
 //
 
 import SwiftUI
+import Foundation
 
 @main
 struct breathe_assitantApp: App {
+    
     var body: some Scene {
+      
         WindowGroup {
-            ContentView()
+            
+                ContentView()
+            
         }
     }
+    
 }
 
 // MARK: EDITS TO THIS FILE TRIGGER AN XCLOUD WORKFLOW BUILD SO EDIT THE VERSION NUMBER BELOW TO BUILD

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-extension navigationManager: View
+extension navigationRoutes: View
 {
     var body: some View
     {
@@ -74,6 +74,7 @@ extension navigationManager: View
             case 10: ALF_KAP_CoolDown()
                 
             case 11: ALF_KAP_NextSteps()
+            case 99: Guide()
                 
             default:
                  ErrorData(title:"Developer Oopsie", message:"Tried navigating to an ivalid location and index using .ALFKeepActive(index)").errorView()

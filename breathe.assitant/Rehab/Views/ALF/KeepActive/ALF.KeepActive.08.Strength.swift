@@ -87,7 +87,7 @@ struct ALF_KAP_Strength: View {
                             .padding(.top, 10)
                             
     
-                        ALF.PageNavigationLinkControl(
+                        ALF.NavigationControl(
                             title: "Next: Aerobic exercises",
                             about: "Learn about some aerobic exercises to work your heart and lungs that you can do at home.",
                             color: .purple.opacity(0.5), //Color(hex: 0x808c9e),

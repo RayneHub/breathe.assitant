@@ -24,7 +24,7 @@ struct KeepActiveProgramme : View{
                     VStack(alignment:.leading, spacing: 0)
                     {
                         
-                        ALF.PageNavigationLinkControl(
+                        ALF.NavigationControl(
                             title: "Keep Active Programme",
                             about: "If you have a lung condition, being active can help to improve your quality of life and can also help you to manage your condition.",
                             color: .blue,
@@ -36,7 +36,7 @@ struct KeepActiveProgramme : View{
                         
                         .overlay{
                            
-                            if(!navigationManager.AlfProgammeUnlocked){
+                            if(!navigationRoutes.AlfProgammeUnlocked){
                                 ALF.HeaderControl(
                                     title: "Keep Active Programme",
                                     about: "If you have a lung condition, being active can help to improve your quality of life and can also help you to manage your condition.",
@@ -56,7 +56,7 @@ struct KeepActiveProgramme : View{
                         )
                         .foregroundColor(.black.opacity(0.7))
                         
-                        if(!navigationManager.AlfProgammeUnlocked){
+                        if(!navigationRoutes.AlfProgammeUnlocked){
                             ALF.HeaderControl(
                                 title: "How do I access it?",
                                 about: "Before beginning our exercise programme, you must vist the **'Before you start'** and **'Exercise levels'** sections below. This will unlock access to the **'Keep Active Programme'** (above) for you .",
@@ -67,7 +67,7 @@ struct KeepActiveProgramme : View{
                         }
                         
            
-                        ALF.PageNavigationLinkControl(
+                        ALF.NavigationControl(
                             title: "Before you start",
                             about: "Before beginning our exercise programme, you must read this section.\n\nIt explores what you need to do before you start this exercise programme and gives pointers on when you should stop and seek advice from a healthcare provider.",
                             color: .yellow.opacity(0.7),
@@ -76,7 +76,7 @@ struct KeepActiveProgramme : View{
                         ).foregroundColor(.black.opacity(0.7))
                         
                         
-                        ALF.PageNavigationLinkControl(
+                        ALF.NavigationControl(
                             title: "Exercise levels",
                             about: "Find out how to choose the right level to exercise and and why. \n\nExplore what you need to do before you begin this programme and get pointers on when you should stop and seek advice from a healthcare provider.",
                             color:.indigo.opacity(0.9),

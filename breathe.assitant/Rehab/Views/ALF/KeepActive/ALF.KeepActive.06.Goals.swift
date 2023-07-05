@@ -41,7 +41,7 @@ struct ALF_KAP_Goals: View {
                             
                         ).foregroundColor(.black.opacity(0.7))
                         
-                        ALF.PageNavigationLinkControl(
+                        ALF.NavigationControl(
                             title: "Next: Warming up",
                             about: "Find out how to warm up properly before you begin exercising.",
                             color: .orange.opacity(0.5), //Color(hex: 0x808c9e),

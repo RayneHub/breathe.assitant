@@ -29,7 +29,7 @@ fileprivate struct RouterHost : ViewModifier {
                     .navigationTitle(Title)
                     .navigationBarTitleDisplayMode(TitleDisplayMode)
                     .navigationBarHidden(navigationBarHidden)
-                    .navigationDestination(for: navigationManager.self){ $0 }
+                    .navigationDestination(for: navigationRoutes.self){ $0 }
             }
             .navigationTitle("Navigation Title")
                         .toolbarBackground(
@@ -65,6 +65,5 @@ extension View
             .previewDisplayName(previewName)
     }
 }
-
 
 

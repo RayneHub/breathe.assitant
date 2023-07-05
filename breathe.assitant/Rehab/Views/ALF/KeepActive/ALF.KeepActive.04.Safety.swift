@@ -65,7 +65,7 @@ struct ALF_KAP_Safety: View {
                         ).foregroundColor(.black.opacity(0.7))
                            
   
-                        ALF.PageNavigationLinkControl(
+                        ALF.NavigationControl(
                             title: "Next: Managing breathlessness",
                             about: "Find out how to manage breathlessness when you exercise.",
                             color: Color(hex: 0x808c9e).opacity(0.8), //Color(hex: 0x808c9e),

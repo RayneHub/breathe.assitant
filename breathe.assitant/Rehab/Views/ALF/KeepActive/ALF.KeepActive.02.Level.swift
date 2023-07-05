@@ -80,7 +80,7 @@ struct ALF_KAP_Level: View {
                             
                         ).foregroundColor(.black.opacity(0.7))
                         
-                        ALF.PageNavigationLinkControl(
+                        ALF.NavigationControl(
                             title: "Next: Programme overview",
                             about: "Get an overview of the keep active exercise programme.",
                             color: .blue.opacity(0.9), //Color(hex: 0x808c9e),
