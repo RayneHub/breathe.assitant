@@ -114,7 +114,7 @@ struct Guide: View
             
             else
             {
-                Text("Tap the **\(rightImage)** button on the left to go forwards. \n\nYou can also swipe left on this button to go forward.")
+                Text("Tap the **\(rightImage)** button on the right to go forwards. \n\nYou can also swipe left on this button to go forward.")
             }
         }
         
@@ -215,11 +215,13 @@ struct Guide: View
                     dummyParagraph()
                     dummyParagraph()
                     
-                    Button ("GO Back TO MAIN PAGE")
+                    Button ("Click Me to Go Back for now")
                     {
                         self.firstRun(set:false)
                     }
                     .buttonStyle(.borderedProminent).padding(.leading, 30)
+                    .padding(.bottom, 20)
+                    
                     ALF.NavigationFooter().id(5)
                 }
                 .background(.white)
