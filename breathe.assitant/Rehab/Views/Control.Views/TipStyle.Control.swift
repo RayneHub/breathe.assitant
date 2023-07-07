@@ -16,6 +16,8 @@ struct TipView : ViewModifier {
     var headerColor:Color = .black.opacity(0.65)
     var headerPadding:CGFloat = 90
     
+    var alignment:Alignment = .bottom
+    
     @State private var visible = true
     
     func body(content: Content) -> some View {
@@ -54,30 +56,39 @@ struct TipView : ViewModifier {
                 
                 .background(.white).cornerRadius(4)
                 
-
+               
                 
-                .background(alignment: .top)
+                
+                .background(alignment: alignment)
                 {
+                    let x:CGFloat = (alignment == .bottomTrailing || alignment == .topTrailing) ? -8 :
+                        (alignment == .bottomLeading || alignment == .topLeading) ? 8 : 0
+                    
+                    let y:CGFloat = (alignment == .topLeading || alignment == .topTrailing ||  alignment == .top) ? -8 : 8
+                        
+                    
                     Rectangle()
                         .fill(bgColor)
-                        .frame(width:20, height: 20, alignment: .top)
+                        .frame(width:20, height: 20)
                         .background(.white)
                         .rotationEffect(.degrees(45))
-                        .padding(.top, -8)
+                        .offset(x:x, y:y)
+                        
                 }
             }
         }
         
     }
+    
 }
 
 // MARK: Extensions for modier are in the same file as we marked it as fileprivate
 extension View
 {
     @warn_unqualified_access
-    func tipView(header: String = "", headerColor:Color = .black.opacity(0.65), headerPadding:CGFloat = 0) -> some View
+    func tipView(header: String = "", headerColor:Color = .black.opacity(0.65), headerPadding:CGFloat = 0, pointerPosition:Alignment = .top ) -> some View
     {
-        return modifier(TipView(header:header, headerColor:headerColor, headerPadding: headerPadding))
+        return modifier(TipView(header:header, headerColor:headerColor, headerPadding: headerPadding, alignment: pointerPosition))
     }
 }
 
@@ -105,7 +116,7 @@ struct TipView_Previews: PreviewProvider {
             
             .padding(.horizontal, 30)
             Spacer()
-        }.background(.red.opacity(0.2))
+        }.background(.blue.opacity(0.2))
     }
 }
 

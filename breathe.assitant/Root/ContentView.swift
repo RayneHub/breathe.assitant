@@ -6,20 +6,13 @@ struct ContentView: View
     
     var body: some View{
         
-        
         KeepActiveProgramme()
             .onFirstAppearance
         {
             //print(type(of: self))
             //MARK: comment out this line to skip showtips in simulator
             //UserDefaults.standard.set(true, forKey: "ShowTips")
-            
-            //let b:String = "\(type(of: self))"
-            //print(b)
-            //UserDefaults.standard.set(true, forKey: "Guide")
-            //UserDefaults.standard.bool(forKey: b)
         }
-        
         .onFirstRun()
         {
             Guide()
@@ -59,6 +52,9 @@ struct ContentView: View
     }
 }
 
+
+
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
             ContentView()
@@ -66,8 +62,9 @@ struct ContentView_Previews: PreviewProvider {
         {
             //print(type(of: self))
             //MARK: comment out this line to skip showtips in simulator
-            //UserDefaults.standard.set(true, forKey: "Guide")
+            //UserDefaults.standard.set(false, forKey: "Guide")
         }
     }
 }
+
 

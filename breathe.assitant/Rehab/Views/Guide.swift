@@ -14,8 +14,10 @@ struct Guide: View
     
     @State var scrollIndex : Int = 0
     @State var anchor:UnitPoint = .top
+    @ScaledMetric(relativeTo:.body) var height = 17 // default height of body
     
     let animation = Animation.linear(duration: 1).repeatForever(autoreverses: false)
+    let logo = Text(Image("menu.icon")).baselineOffset(-3)
     
     func dummyNav (bgColor:Color = .yellow.opacity(0.7), fgColor:Color = .black.opacity(0.60), direction:direction = .horizontal) -> some View {
         
@@ -70,17 +72,18 @@ struct Guide: View
         {
             Text("This introductory page teaches you how to navigate this application.\n")
             Text("Please spend a minute to read the tips. You will not see them again unless you click the **?** button when available.\n")
-            Text("Press the \(Image(systemName:"xmark.square")) in the right coner of this tip to close it.\n")
+            Text("Tap the \(Image(systemName:"xmark.square")) in the right coner of this tip to close it.\n")
             //Text("If you are an Iphone expert and want to skip this quick tutorial you use the button below.")
             //Button("Skip Button"){}.buttonStyle(.borderedProminent).frame(maxWidth:.infinity)
         }
         .onDisappear{
             scrollIndex=1
             showTip=1
+            
         }
-        .tipView(header: "Welcome tips", headerColor: .pink)
+        .tipView(header: "Welcome tips", headerColor: .pink, pointerPosition: .center)
         .padding(.horizontal,40)
-        .opacity(0.93)
+        .opacity(0.97)
         .frame(maxWidth:.infinity, maxHeight:.infinity, alignment: .top)
     }
     
@@ -140,11 +143,53 @@ struct Guide: View
             
             
         }
-        .tipView(header: (dir == .horizontal ? "Dual" : dir == .left ? "Left" : "Right") + " Navigation Button", headerColor: .pink)
+        .tipView(header: (dir == .horizontal ? "Dual" : dir == .left ? "Left" : "Right") + " navigation button", headerColor: .pink)
         .padding(.horizontal,30)
         .opacity(0.93)
         .frame(maxWidth:.infinity, maxHeight:.infinity, alignment: .top)
         
+    }
+    
+    func tip5() -> some View {
+        
+        Text("Some sections have a different footer that provide links to social media relevant to the section you are visiting.")
+        
+            .onDisappear{
+                showTip=6
+            }
+            .tipView(header: "Social media and links", headerColor: .pink, pointerPosition: .bottomTrailing)
+            .padding(.horizontal,40)
+            .opacity(0.93)
+            .frame(maxWidth:.infinity, maxHeight:.infinity, alignment: .bottom)
+    }
+    
+    func tip6() -> some View {
+        
+            Text("Tap this button to go to the applications first page.\n\nHold this button to see the Navigation Menu.")
+ 
+            .onDisappear{
+                showTip=7
+                scrollIndex=0
+            }
+            .tipView(header: "Footer navigation button", headerColor: .pink, pointerPosition: .bottomLeading)
+            .padding(.horizontal,40)
+            .opacity(0.93)
+            .frame(maxWidth:.infinity, maxHeight:.infinity, alignment: .bottom)
+    }
+    
+    func tip7() -> some View {
+        VStack(alignment: .leading, spacing: 0)
+        {
+            Text("Thankyou for taking the time to read our tips. Tap the \(Image(systemName:"xmark.square")) in the corner to continue.\n")
+        }
+            .onDisappear{
+                self.firstRun(disable: true)
+                showTip=0
+            }
+            .tipView(header: "Exit tips", headerColor: .pink, pointerPosition: .center)
+            .padding(.horizontal,40)
+            .opacity(0.93)
+            .frame(maxWidth:.infinity, maxHeight:.infinity, alignment: .center)
     }
     
     
@@ -155,7 +200,7 @@ struct Guide: View
                 VStack(alignment: .leading, spacing: 0)
                 {
                     VStack(alignment: .leading, spacing: 0){
-                        dummyNav(bgColor: .gray.opacity(0.7), direction: .horizontal).redacted(reason: .placeholder).id(0)
+                        dummyNav(bgColor: .orange.opacity(0.7), direction: .horizontal).redacted(reason: .placeholder).id(0)
                         dummyParagraph()
                         dummyParagraph()
                     }
@@ -163,12 +208,15 @@ struct Guide: View
                         if(showTip == 0){
                             tip0()
                         }
+                        if(showTip == 7){
+                            tip7()
+                        }
                     } .animation(.default.speed(1), value: showTip)
                     
                     
                     VStack(alignment: .leading, spacing: 0){
                         
-                        dummyNav(bgColor: .purple.opacity(0.7), direction: .horizontal).redacted(reason: .placeholder).id(1)
+                        dummyNav(bgColor: .pink.opacity(0.7), direction: .horizontal).redacted(reason: .placeholder).id(1)
                         dummyParagraph()
                             .overlay
                         {
@@ -212,22 +260,30 @@ struct Guide: View
                     }
                     .animation(.default.speed(1), value: showTip)
                     .foregroundColor(.black.opacity(0.77))
-                    dummyParagraph()
+                    
+                    
+                    dummyNav(bgColor: .gray.opacity(0.7), direction: .horizontal).redacted(reason: .placeholder)
                     dummyParagraph()
                     
-                    Button ("Click Me to Go Back for now")
-                    {
-                        self.firstRun(set:false)
-                    }
-                    .buttonStyle(.borderedProminent).padding(.leading, 30)
-                    .padding(.bottom, 20)
-                    
+                    dummyParagraph()
+                     
                     ALF.NavigationFooter().id(5)
+                    
                 }
                 .background(.white)
                 
             }
-            
+            .overlay
+        {
+            if(showTip == 5){
+                tip5().padding(.bottom,60).offset(x:20, y:5)
+            }
+            if(showTip == 6){
+                tip6().padding(.bottom,60).offset(x:-10, y:5)
+            }
+        }
+        .animation(.default.speed(1), value: showTip)
+        .foregroundColor(.black.opacity(0.140))
             .onChange(of: scrollIndex) { idx in
                 withAnimation{
                     value.scrollTo(idx, anchor: .top)

@@ -27,7 +27,7 @@ extension ALF {
                             {
                                 UserDefaults.standard.set(0, forKey: "ALF.Begin")
                                 UserDefaults.standard.set(0, forKey: "ALF.Level")
-                                UserDefaults.standard.set(true, forKey: "Guide")
+                                UserDefaults.standard.set(false, forKey: "Guide")
                             }.tint(.yellow).buttonStyle(.borderedProminent).padding(.trailing,12)
                             
                             Button {

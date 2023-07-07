@@ -76,6 +76,7 @@ final class NavigationRouter: ObservableObject {
     func resetChapter()
     {
         guard let chapterRoot = chapterMarkers.last else {
+            reset()
             return
         }
         
